@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import pickle
 
-# IMPORTANT: import custom transformers BEFORE loading pickle
-from transformers import RatioFeatureEngineer, IQRClipper  # keep your exact names
+
+from transformers import RatioFeatureEngineer, IQRClipper  
 
 BUNDLE_PATH = "employee_attrition_bundle.pkl"
 
